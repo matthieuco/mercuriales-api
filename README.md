@@ -91,7 +91,7 @@ Le projet génère automatiquement un fichier Excel contenant :
 * Prix moyens
 * Prix spécifiques Mafate (+30 %)
 
-![overview](mercuriales_20260609.xlsx)
+![mercuriales_20260609.xlsx](mercuriales_20260609.xlsx)
 
 ---
 
@@ -101,7 +101,9 @@ Cette solution est destinée à automatiser la production des données de prix d
 
 L'objectif étant d'avoir constamment une actualisation des prix des fruits et légumes sur les marchés réunionnais avec un intégration d'une marge propre au territoire de Mafate. 
 
-Ces données permettent d'être au fait des prix des marchés lors des transactions entre les producteurs de Mafate et les gîteurs, services de la restauration scolaire ou tout autre évènement impliquant un achat de denrées locale sur Mafate. Ces données sont des éléments clefs pour les **objectifs structurels** du PAT de Mafate.
+Ces données permettent d'être au fait des prix des marchés lors des transactions entre les producteurs de Mafate et les gîteurs, services de la restauration scolaire ou tout autre évènement impliquant un achat de denrées locale sur Mafate. 
+Ces données sont des éléments clefs pour les **objectifs structurels** du PAT de Mafate.
+
 
 ---
 
@@ -133,6 +135,7 @@ Depuis 2024 le PAT de Mafate est porté par **l'Association PAT Mafate** qui reg
 * prévention du diabète et de l'obésité
 * accompagnement vers de meilleures habitudes alimentaires
 
+
 ---
 
 # 🇬🇧 Overview
@@ -155,6 +158,7 @@ The entire workflow is orchestrated using **n8n Cloud** a dedicated **Python web
 * Multi-sheet Excel generation
 * REST API endpoint
 * Fully automated workflow with n8n Cloud
+
 
 ---
 
@@ -194,7 +198,7 @@ Excel Workbook
 * pandas
 * openpyxl
 * n8n Cloud
-* REST API
+* REST API - FastAPI
 
 ---
 
@@ -219,7 +223,7 @@ The application automatically generates an Excel workbook containing:
 * Average Prices
 * Mafate Prices (+30%)
 
-![overview](mercuriales_20260609.xlsx)
+![mercuriales_20260609.xlsx](mercuriales_20260609.xlsx)
 
 ---
 
