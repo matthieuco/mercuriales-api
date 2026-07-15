@@ -66,7 +66,7 @@ Excel (.xlsx)
 * openpyxl
 * n8n Cloud
 * Render
-* REST API
+* REST API via FastAPI
 
 ---
 
