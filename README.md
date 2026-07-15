@@ -8,7 +8,7 @@
 
 # 🇫🇷 Présentation
 
-Ce projet automatise l'ensemble du traitement des **Mercuriales** publiées par la **DAAF de La Réunion**.
+Ce projet automatise bi-mensuellement l'ensemble du traitement des **Mercuriales** publiées par la **DAAF de La Réunion**.
 
 L'objectif est de supprimer les manipulations manuelles nécessaires pour récupérer les fichiers PDF, extraire les prix des produits alimentaires, appliquer les règles métier du **PAT Mafate**, puis générer un fichier Excel directement exploitable.
 
@@ -97,7 +97,7 @@ Le projet génère automatiquement un fichier Excel contenant :
 
 ## Cas d'utilisation
 
-Cette solution est destinée à automatiser la production des données de prix des **denrées-fruits et légumes- commercialisés en GSM et sur les marchés forains** dans le cadre du **Projet Alimentaire Territorial (PAT) de Mafate**. 
+Cette solution est destinée à automatiser bi-mensuellement la production des données de prix des **denrées-fruits et légumes- commercialisés en GSM et sur les marchés forains** dans le cadre du **Projet Alimentaire Territorial (PAT) de Mafate**. 
 
 L'objectif étant d'avoir constamment une actualisation des prix des fruits et légumes sur les marchés réunionnais avec  l'intégration d'une marge propre au territoire de Mafate. 
 
@@ -140,7 +140,7 @@ Depuis 2024 le PAT de Mafate est porté par **l'Association PAT Mafate** qui reg
 
 # 🇬🇧 Overview
 
-This project automates the processing of the monthly **Market Reports (Mercuriales)** published by the **DAAF of Réunion Island**.
+This project automates bi-monthly the processing of the monthly **Market Reports (Mercuriales)** published by the **DAAF of Réunion Island**.
 
 Its purpose is to eliminate manual work by automatically downloading PDF reports, extracting product prices, applying the business rules defined for the **PAT Mafate** program, and generating a ready-to-use Excel workbook.
 
@@ -229,7 +229,7 @@ The application automatically generates an Excel workbook containing:
 
 ## Business Context
 
-This solution is designed to automate the production of **fruit and vegetable price data** collected from **supermarkets (GMS)** and **open-air markets (forains)** as part of the **Mafate Territorial Food Project (PAT Mafate)**.
+This solution is designed to automate bi-monthly the production of **fruit and vegetable price data** collected from **supermarkets (GMS)** and **open-air markets (forains)** as part of the **Mafate Territorial Food Project (PAT Mafate)**.
 
 Its objective is to maintain an up-to-date view of fruit and vegetable prices across Réunion Island while automatically applying the pricing margin specific to the Mafate territory. This provides reliable reference prices for transactions between Mafate's local producers and stakeholders such as mountain lodges (gîtes), school catering services, and any other initiatives involving the purchase of locally produced food within Mafate.
 
