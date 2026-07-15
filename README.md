@@ -91,7 +91,9 @@ Le projet génère automatiquement un fichier Excel contenant :
 * Prix moyens
 * Prix spécifiques Mafate (+30 %)
 
-![mercuriales_20260609.xlsx](mercuriales_20260609.xlsx)
+![Aperçu](docs/screenshot_mercuriales.png)
+
+![mercuriales_20260609.xlsx](docs/mercuriales_20260609.xlsx)
 
 ---
 
@@ -223,7 +225,9 @@ The application automatically generates an Excel workbook containing:
 * Average Prices
 * Mafate Prices (+30%)
 
-![mercuriales_20260609.xlsx](mercuriales_20260609.xlsx)
+![overview](docs/screenshot_mercuriales.png)
+
+![mercuriales_20260609.xlsx](docs/mercuriales_20260609.xlsx)
 
 ---
 
