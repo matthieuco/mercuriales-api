@@ -92,6 +92,7 @@ Le projet génère automatiquement un fichier Excel contenant :
 * Prix spécifiques Mafate (+30 %)
 
 ![overview](mercuriales_20260609.xlsx)
+
 ---
 
 ## Cas d'utilisation
@@ -102,6 +103,7 @@ L'objectif étant d'avoir constamment une actualisation des prix des fruits et l
 
 Ces données permettent d'être au fait des prix des marchés lors des transactions entre les producteurs de Mafate et les gîteurs, services de la restauration scolaire ou tout autre évènement impliquant un achat de denrées locale sur Mafate. Ces données sont des éléments clefs pour les **objectifs structurels** du PAT de Mafate.
 
+---
 
 ## Présentation du Plan Alimentaire Territorial (PAT) de Mafate 
 
