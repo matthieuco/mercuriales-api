@@ -12,7 +12,7 @@ Ce projet automatise bi-mensuellement l'ensemble du traitement des **Mercuriales
 
 L'objectif est de supprimer les manipulations manuelles nécessaires pour récupérer les fichiers PDF, extraire les prix des produits alimentaires, appliquer les règles métier du **PAT Mafate**, puis générer un fichier Excel directement exploitable.
 
-Le workflow est entièrement automatisé grâce à **n8n Cloud**, un **webservice Python** déployé sur **Render**.
+Le workflow est entièrement automatisé grâce à **n8n**, un **webservice Python** déployé sur un **VPS OVH**.
 
 ---
 
@@ -24,12 +24,14 @@ Le workflow est entièrement automatisé grâce à **n8n Cloud**, un **webservic
 * Nettoyage et structuration des données
 * Calcul automatique des prix spécifiques à Mafate (+30 %)
 * Génération d'un fichier Excel multi-feuilles
-* Exposition via une API REST déployée via Render
-* Orchestration complète avec n8n Cloud
+* Exposition via une API REST déployée sur VPS OVH
+* Orchestration complète avec n8n
 
 ---
 
 ## Architecture
+
+Workflow n8n
 
 ```text
 DAAF Website (https://daaf.reunion.agriculture.gouv.fr)
@@ -39,9 +41,6 @@ Recherche automatique des PDF
       │
       ▼
 Téléchargement PDF (+ récents) GMS + Forains
-      │
-      ▼
-n8n Cloud
       │
       ▼
 Webservice Python
@@ -64,8 +63,8 @@ Excel (.xlsx)
 * pdfplumber
 * pandas
 * openpyxl
-* n8n Cloud
-* Render
+* n8n
+* Docker
 * REST API via FastAPI
 
 ---
@@ -159,12 +158,15 @@ The entire workflow is orchestrated using **n8n Cloud** a dedicated **Python web
 * Automatic Mafate price calculation (+30%)
 * Multi-sheet Excel generation
 * REST API endpoint
-* Fully automated workflow with n8n Cloud
+* Fully automated workflow with n8n
+* Deployed in a VPS
 
 
 ---
 
 ## Architecture
+
+Workflow n8n
 
 ```text
 DAAF Website (https://daaf.reunion.agriculture.gouv.fr)
@@ -174,9 +176,6 @@ PDF Detection (most recents) GMS + Forains
       │
       ▼
 Download
-      │
-      ▼
-n8n Cloud
       │
       ▼
 Python Web Service
@@ -199,7 +198,8 @@ Excel Workbook
 * pdfplumber
 * pandas
 * openpyxl
-* n8n Cloud
+* n8n
+* Docker
 * REST API - FastAPI
 
 ---
